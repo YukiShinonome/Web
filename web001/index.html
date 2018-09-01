@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+        <title>Yuki's Profile</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oranienbaum">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="site-title">Yuki's Profile</h1>
+            <p class="site-description">Check out some of my skills.</p>
+            <div class="buttons">
+                <a class="button" href="#about">ABOUT ME</a>
+                <a class="button" href="#works">WORKS</a>
+                <a class="button" href="#skills">MY SKILLS</a>
+                <a class="button" href="#contact">CONTACT</a>
+            </div>
+        </header>
+        <section class="about" id="about">
+            <h2 class="heading">ABOUT ME</h2>
+            <p class="about-text">
+                ハンドルネーム：東雲祐希（しののめゆき）<br>
+                性別：男性<br>
+                2014年4月　情報系大学　入学<br>
+                2018年3月　情報系大学　卒業<br>
+                2018年4月　情報系大学院　入学<br>
+                GitHub：<a href="https://github.com/YukiShinonome">https://github.com/YukiShinonome</a><br>
+                pixiv：<a href="https://www.pixiv.net/member.php?id=10601299">https://www.pixiv.net/member.php?id=10601299</a>
+            </p>
+            <p class="about-text">
+                このサイトでは東雲祐希のスキルを中心に紹介します。
+            </p>
+        </section>
+        <section class="works" id="works">
+            <h2 class="heading">WORKS</h2>
+            <div class="works-wrapper">
+                <img src="images/p001.JPG" alt="描いた絵">
+                <img src="images/p002.JPG" alt="描いた絵">
+                <img src="images/p003.JPG" alt="描いた絵">
+                <img src="images/p004.JPG" alt="描いた絵">
+                <img src="images/p005.JPG" alt="描いた絵">
+                <img src="images/p006.JPG" alt="描いた絵">
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <h2 class="heading">MY SKILLS</h2>
+            <div class="skills-wrapper">
+                <div class="table-row">
+                    <div class="skill-box">
+                        <i class="skill-icon fas fa-paint-brush"></i>
+                        <div class="skill-title">DESIGN</div>
+                        <p class="skill-text">
+                            デザインにこだわります。<br>
+                            絵の勉強をしているので見た目の綺麗さを大切にしています。
+                            また、HCIや感性工学の勉強もしているので、
+                            見た目の綺麗さだけではなく、使いやすさも意識して開発できます。
+                        </p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="skill-icon fas fa-code"></i>
+                        <div class="skill-title">HTML/CSS</div>
+                        <p class="skill-text">
+                            HTML/CSSコーディングができます。<br>
+                            このブログも自分で構築しました。
+                            まだ、HTML/CSSコーディングの経験は浅いですが、
+                            プログラミング自体は大学入学した頃からしているので、
+                            この勉強はスムーズにできています。
+                        </p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="skill-icon fab fa-js-square"></i>
+                        <div class="skill-title">JavaScript</div>
+                        <p class="skill-text">
+                            JavaScriptコーディングができます。<br>
+                            基本的な文法は理解していてコードを読むことができます。
+                            まだ、JavaScriptの経験は浅いですが、
+                            HTML/CSS同様にこの勉強はスムーズにできています。
+                        </p>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="skill-box">
+                        <i class="skill-icon far fa-lightbulb"></i>
+                        <div class="skill-title">IDEA</div>
+                        <p class="skill-text">
+                            発想力に自信があります。<br>
+                            様々な分野の知識を得ることでジャンルにとらわれない独創的な提案ができます。
+                        </p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="skill-icon fab fa-python"></i>
+                        <div class="skill-title">Python</div>
+                        <p class="skill-text">
+                            Pythonのコーディングができます。<br>
+                            研究で使用しているプログラミング言語なので、
+                            最も経験の多い言語です。
+                            人工知能技術である機械学習や自然言語処理の実装で使っています。
+                        </p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="skill-icon fab fa-github-square"></i>
+                        <div class="skill-title">Git/GitHub</div>
+                        <p class="skill-text">
+                            GitHubでコードを公開しています。<br>
+                            基本的なGitのコマンドを使うことができ、
+                            プログラミングコードを公開しています。
+                            特に、自然言語処理のコードの更新に力を入れています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="heading">CONTACT</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="NAME">
+                <textarea name="message" placeholder="MESSAGE"></textarea>
+                <input type="submit" value="SEND">
+            </form>
+        </section>
+        <footer class="footer">
+            &copy; Yuki Shinonome
+        </footer>
+        <script src="lib/placeholders.min.js"></script>
+    </body>
+</html>
